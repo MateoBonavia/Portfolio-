@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mateo Bonavia Portfolio</title>
+    <!-- ==================== Unicons ==================== -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!-- ==================== CSS ==================== -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+
+  <body>
+    <!-- ==================== HEADER ==================== -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Mateo</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-home nav__icon"></i> Home
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i> About
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file nav__icon"></i> Skills
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i> Contact Me
+              </a>
+            </li>
+
+            <i class="uil uil-times nav__close" id="nav-close"></i>
+          </ul>
+        </div>
+        <div class="nav__btns">
+          <!-- Theme Change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/mateobonavia/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin"></i>
+              </a>
+              <a
+                href="https://github.com/MateoBonavia"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github"></i>
+              </a>
+            </div>
+            <div class="home__img">
+              <svg class="home__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                  <mask id="mask0" mask-type="alpha">
+                      <path
+                          d="M40.6,-56.8C53.8,-46.3,66.4,-36,72.1,-22.5C77.8,-9,76.5,7.7,69.7,20.8C62.9,33.8,50.6,43.3,38,55C25.5,66.6,12.8,80.6,0.1,80.5C-12.6,80.4,-25.2,66.3,-38.8,54.9C-52.4,43.6,-66.9,35,-72.9,22.3C-79,9.6,-76.6,-7.3,-70.7,-22.2C-64.8,-37.1,-55.3,-50.1,-43,-60.9C-30.6,-71.6,-15.3,-80,-0.8,-79C13.7,-77.9,27.4,-67.3,40.6,-56.8Z"
+                          transform="translate(100 100)" />
+                  </mask>
+                  <g mask="url(#mask0)">
+                      <path
+                          d="M40.6,-56.8C53.8,-46.3,66.4,-36,72.1,-22.5C77.8,-9,76.5,7.7,69.7,20.8C62.9,33.8,50.6,43.3,38,55C25.5,66.6,12.8,80.6,0.1,80.5C-12.6,80.4,-25.2,66.3,-38.8,54.9C-52.4,43.6,-66.9,35,-72.9,22.3C-79,9.6,-76.6,-7.3,-70.7,-22.2C-64.8,-37.1,-55.3,-50.1,-43,-60.9C-30.6,-71.6,-15.3,-80,-0.8,-79C13.7,-77.9,27.4,-67.3,40.6,-56.8Z"
+                          transform="translate(100 100)" />
+                      <image class="home__blob-img" x="23" y="8" href="./assets/img/20220131_112729-removebg-preview.png">
+                  </g>
+
+              </svg>
+          </div>
+            <div class="home__data">
+              <h1 class="home__title">Hi, I'm Mateo</h1>
+              <h3 class="home__subtitle">Frontend Developer</h3>
+              <p class="home__description">Welcome to my presentation!!</p>
+              <a href="#contact" class="button button--flex">
+                Contact Me <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle"></span>
+
+        <div class="about__container container grid">
+          <img src="./assets/img/sesionweb-36.jpg" alt="" class="about__img" />
+
+          <div class="about__data">
+            <p class="about__description">
+              I am a Full-Stack Web Developer living in Argentina. I am a person who adapts well to most situations and likes to put his knowledge to the test. I am looking for new challenges to incorporate knowledge and thus develop successfully as a professional.
+            </p>
+
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">01</span>
+                <span class="about__info-name">Years<br />Experience</span>
+              </div>
+
+              <div>
+                <span class="about__info-title">01</span>
+                <span class="about__info-name">Completed<br />Proyects</span>
+              </div>
+            </div>
+
+            <div class="about__buttons">
+              <a
+                href="./assets/pdf/Mateo Bonavia.pdf"
+                download
+                class="button button--flex"
+              >
+                Download CV<i class="uil uil-file-download button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My technical level</span>
+
+        <div class="skills__container container grid">
+          <div>
+            <ul>
+              <!--==================== SKILLS 1 ====================-->
+              <li>
+                <div class="skills__content skills__open">
+                  <div class="skills__header">
+                    <i class="uil uil-brackets-curly skills__icon"></i>
+
+                    <div>
+                      <h1 class="skills__title">Frontend Developer</h1>
+                      <span class="skills__subtitle">Less than a year</span>
+                    </div>
+
+                    <i class="uil uil-angle-down skills__arrow"></i>
+                  </div>
+                  <div class="skills__list grid">
+                    <ul class="skills__dropdown">
+                      <li>
+                        <div class="skills__data">
+                          <div class="skills__titles">
+                            <h3 class="skills__name">HTML</h3>
+                            <span class="skills__number">60%</span>
+                          </div>
+                          <div class="skills__bar">
+                            <span
+                              class="skills__percentage skills__html"
+                            ></span>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="skills__data">
+                          <div class="skills__titles">
+                            <h3 class="skills__name">CSS</h3>
+                            <span class="skills__number">70%</span>
+                          </div>
+                          <div class="skills__bar">
+                            <span class="skills__percentage skills__css"></span>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="skills__data">
+                          <div class="skills__titles">
+                            <h3 class="skills__name">JavaScript</h3>
+                            <span class="skills__number">50%</span>
+                          </div>
+                          <div class="skills__bar">
+                            <span class="skills__percentage skills__js"></span>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="skills__data">
+                          <div class="skills__titles">
+                            <h3 class="skills__name">React - Redux</h3>
+                            <span class="skills__number">50%</span>
+                          </div>
+                          <div class="skills__bar">
+                            <span class="skills__percentage skills__rr"></span>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <!--==================== SKILLS 2 ====================-->
+                <div class="skills__content skills__close">
+                  <div class="skills__header">
+                    <i class="uil uil-brackets-curly skills__icon"></i>
+
+                    <div>
+                      <h1 class="skills__title">Backend Developer</h1>
+                      <span class="skills__subtitle">Less than a year</span>
+                    </div>
+
+                    <i class="uil uil-angle-down skills__arrow"></i>
+                  </div>
+
+                  <div class="skills__list grid">
+                    <ul class="skills__dropdown">
+                      <li>
+                        <div class="skills__data">
+                          <div class="skills__titles">
+                            <h3 class="skills__name">NodeJS</h3>
+                            <span class="skills__number">50%</span>
+                          </div>
+                          <div class="skills__bar">
+                            <span class="skills__percentage skills__njs"></span>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="skills__data">
+                          <div class="skills__titles">
+                            <h3 class="skills__name">SQL</h3>
+                            <span class="skills__number">30%</span>
+                          </div>
+                          <div class="skills__bar">
+                            <span class="skills__percentage skills__sql"></span>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section">
+          <h2 class="section__title">Educations and Proyects</h2>
+          <span class="section__subtitle"
+            ></span
+          >
+
+          <div class="qualification__container container">
+            <div class="qualification__tabs">
+              <div
+                class="qualification__button button--flex qualification__active qualification__color"
+                data-target="#education"
+              >
+                <i class="uil uil-graduation-cap qualification__icon"></i>
+                Education
+              </div>
+
+              <div
+                class="qualification__button button--flex"
+                data-target="#work"
+              >
+                <i class="uil uil-briefcase-alt qualification__icon"></i>
+                Proyects
+              </div>
+            </div>
+
+            <div class="qualification__sections">
+              <!--==================== QUALIFICATION CONTENT 1====================-->
+              <div
+                class="qualification__content qualification__active"
+                data-content
+                id="education"
+              >
+                <!--==================== QUALIFICATION 1====================-->
+                <div class="qualification__data">
+                  <div>
+                    <h3 class="qualification__title">
+                      I studied for two years Design and audiovisual production
+                    </h3>
+                    <span class="qualification__subtitle"
+                      >Universidad Nacional de Villa Maria (UNVM)</span
+                    >
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i> 2020 - 2022
+                    </div>
+                  </div>
+
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                  </div>
+                </div>
+                <!--==================== QUALIFICATION 2====================-->
+                <div class="qualification__data">
+                  <div></div>
+                  <div>
+                    <span class="qualification__rounder"></span>
+                  </div>
+                  <div>
+                    <h3 class="qualification__title">
+                      Programming Course: Full-Stack Web Developer
+                    </h3>
+                    <span class="qualification__subtitle"
+                      >Online Course - Henry</span
+                    >
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i> 2021 - On Course
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION CONTENT 2====================-->
+              <div class="qualification__content" data-content id="work">
+                <!--==================== QUALIFICATION 1====================-->
+                <div class="qualification__data">
+                  <div>
+                    <h3 class="qualification__title">
+                      <a
+                        href="https://pokemon-blush.vercel.app"
+                        class="pokemon_app"
+                        target="_blank"
+                        >Page - Pokemon App</a
+                      >
+                      <i class="uil uil-arrow-left"></i>
+                    </h3>
+                    <span class="qualification__subtitle">Full-Stack Web Page</span>
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i> 2022
+                    </div>
+                  </div>
+
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-phone contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Call me</h3>
+                <span class="contact__subtitle">+54 3537592324</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <span class="contact__subtitle">mateobonavia@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-user-location contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle"
+                  >Argentina - Córdoba</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <form
+            action="https://formspree.io/f/mayveeaq"
+            method="POST"
+            class="contact__form grid"
+            id="form"
+          >
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="name" class="contact__label">Name</label>
+                <input name="name" type="text" class="contact__input" />
+              </div>
+
+              <div class="contact__content">
+                <label for="email" class="contact__label">Email</label>
+                <input name="email" type="email" class="contact__input" />
+              </div>
+            </div>
+
+            <div class="contact__content">
+              <label for="title" class="contact__label">Title</label>
+              <input name="title" type="text" class="contact__input" />
+            </div>
+
+            <div class="contact__content">
+              <label for="message" class="contact__label">Message</label>
+              <textarea
+                name="message"
+                cols="0"
+                rows="7"
+                class="contact__input"
+              ></textarea>
+            </div>
+
+            <div class="contact__status">
+              <div>
+                <button href="#" type="submit" class="button button--flex">
+                  Send Message
+                  <i class="uil uil-message button__icon"></i>
+                </button>
+              </div>
+              <div class="hidden">a</div>
+              <div id="status"></div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==================== SCROLL TOP ==================== -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    <!-- ==================== SWIPER JS ==================== -->
+
+    <!-- ==================== MAIN JS ==================== -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
